@@ -38,3 +38,5 @@ Free RAM: ${freeMemGB} GB / ${totalMemGB} GB`,
 
 const transport = new StdioServerTransport();
 await server.connect(transport);
+
+await new Promise(() => {});
