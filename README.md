@@ -1,21 +1,21 @@
 # MCP System Stats (macOS)
 
-Semplice server MCP che espone una tool per ottenere:
-- CPU load average (1 minuto)
-- RAM libera / totale
+Simple MCP server that exposes a tool to get:
+- CPU load average (1 minute)
+- Free / total RAM
 
-## Installazione
+## Installation
 
 ```bash
 npm install
 ```
 
-## Avvio
+## Start
 
 ```bash
 node index.js
 ```
 
-## Tool esposta
+## Exposed tool
 
 - `get_system_stats`

@@ -11,7 +11,7 @@ const server = new Server(
   {
     tools: {
       get_system_stats: {
-        description: "Ottiene carico CPU e RAM libera su macOS",
+        description: "Gets CPU load and free RAM on macOS",
         inputSchema: {
           type: "object",
           properties: {},
@@ -26,7 +26,7 @@ const server = new Server(
               {
                 type: "text",
                 text: `CPU load (1m): ${loadAvg[0]}
-RAM libera: ${freeMemGB} GB / ${totalMemGB} GB`,
+Free RAM: ${freeMemGB} GB / ${totalMemGB} GB`,
               },
             ],
           };
